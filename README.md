@@ -79,6 +79,7 @@ The below format must be followed for the successful running of the script:
 		- Average Duration of Cycle  
 		- Maximum Duration of Cycle  
 		- Percentage Contribution of Each Chiller in the Total Energy Consumption  
+		
 
 	  - **Units of Inights :**  
 		- Lead Status            : simple string with LEAD or NO-LEAD written.  
