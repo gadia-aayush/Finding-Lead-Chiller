@@ -63,7 +63,7 @@ The below format must be followed for the successful running of the script:
 
    - `Example :: {"input" : [5, [0.40, 0.40, 0.20]] }`		
 
-      **CAUTION: The above Key Names are case-sensitive, so use exactly as written above.**
+        **CAUTION: The above Key Names are case-sensitive, so use exactly as written above.**
 
 
    ---------------------------------------------------------------------------------------------------------------
@@ -82,7 +82,9 @@ The below format must be followed for the successful running of the script:
 
 	  - **Units of Inights :**  
 		- Lead Status            : simple string with LEAD or NO-LEAD written.  
-		- Total No of Cycles     : simply count is given & for some outputs comments are written in Total No. of Cycles asking to refer to Codebook.  
+		- Total No of Cycles     : 
+		   - simply count is given  
+		   - & for some outputs comments are written in Total No. of Cycles asking to refer to Codebook.  
 		- Total Duration         : given in mins.  
 		- Average Duration       : given in mins.  
 		- Maximum Duration       : given in mins.  
