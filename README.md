@@ -50,7 +50,7 @@ The below format must be followed for the successful running of the script:
    - **the JSON String, alternatively the dictionary data structure should have the following Key Names::**  
      `a. input :: it must contain the Off- Value & all the Percentage Weightage`
 
-   - Off- Value viz basically the Y- Values or the Meter Reading is taken as Input.
+   - **Off- Value viz basically the Y- Values or the Meter Reading is taken as Input.**
    - **there is no constraint on the input values.**
 
    - Percentage Weightage is given to following variables- Total Running Hours, Maximum Running Hours &   Percentage Contribution in Total Energy Consumption & all are actually taken as user input & **in the same order as written above.**  
@@ -70,25 +70,25 @@ The below format must be followed for the successful running of the script:
 
 
 4. **Output String ::**
-  - it is passed as a JSON String.  
-  - all the Chiller & each of its insights are passed in the Output.  
-  - **Folowing Insights are given :**  
-      - Lead Status  
-      - Total No of Cycles  
-      - Total Duration of Cycle  
-      - Average Duration of Cycle  
-      - Maximum Duration of Cycle  
-      - Percentage Contribution of Each Chiller in the Total Energy Consumption  
+	  - it is passed as a JSON String.  
+	  - all the Chiller & each of its insights are passed in the Output.  
+	  - **Folowing Insights are given :**  
+	      - Lead Status  
+	      - Total No of Cycles  
+	      - Total Duration of Cycle  
+	      - Average Duration of Cycle  
+	      - Maximum Duration of Cycle  
+	      - Percentage Contribution of Each Chiller in the Total Energy Consumption  
 
-  - **Units of Inights :**  
-    - Lead Status            : - simple string with LEAD or NO-LEAD written.  
-    - Total No of Cycles     : 
-      - simply count is given   
-      - for some outputs comments are written in Total No. of Cycles asking to refer to Codebook.    
-    - Total Duration         : given in mins.  
-    - Average Duration       : given in mins.  
-    - Maximum Duration       : given in mins.  
-    - Percentage Contribution: given in %.  
+	  - **Units of Inights :**  
+	    - Lead Status            : - simple string with LEAD or NO-LEAD written.  
+	    - Total No of Cycles     : 
+	      - simply count is given   
+	      - for some outputs comments are written in Total No. of Cycles asking to refer to Codebook.    
+	    - Total Duration         : given in mins.  
+	    - Average Duration       : given in mins.  
+	    - Maximum Duration       : given in mins.  
+	    - Percentage Contribution: given in %.  
 
    ----------------------------------------------------------------------------------------------------------------   
 
