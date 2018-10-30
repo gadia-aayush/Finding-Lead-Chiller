@@ -73,22 +73,20 @@ The below format must be followed for the successful running of the script:
 	  - it is passed as a JSON String.  
 	  - all the Chiller & each of its insights are passed in the Output.  
 	  - **Folowing Insights are given :**  
-	      - Lead Status  
-	      - Total No of Cycles  
-	      - Total Duration of Cycle  
-	      - Average Duration of Cycle  
-	      - Maximum Duration of Cycle  
-	      - Percentage Contribution of Each Chiller in the Total Energy Consumption  
+		- Lead Status  
+		- Total No of Cycles  
+		- Total Duration of Cycle  
+		- Average Duration of Cycle  
+		- Maximum Duration of Cycle  
+		- Percentage Contribution of Each Chiller in the Total Energy Consumption  
 
 	  - **Units of Inights :**  
-	    - Lead Status            : - simple string with LEAD or NO-LEAD written.  
-	    - Total No of Cycles     : 
-	      - simply count is given   
-	      - for some outputs comments are written in Total No. of Cycles asking to refer to Codebook.    
-	    - Total Duration         : given in mins.  
-	    - Average Duration       : given in mins.  
-	    - Maximum Duration       : given in mins.  
-	    - Percentage Contribution: given in %.  
+		- Lead Status            : simple string with LEAD or NO-LEAD written.  
+		- Total No of Cycles     : simply count is given & for some outputs comments are written in Total No. of Cycles asking to refer to Codebook.  
+		- Total Duration         : given in mins.  
+		- Average Duration       : given in mins.  
+		- Maximum Duration       : given in mins.  
+		- Percentage Contribution: given in %.  
 
    ----------------------------------------------------------------------------------------------------------------   
 
