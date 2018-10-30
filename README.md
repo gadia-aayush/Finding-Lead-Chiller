@@ -72,7 +72,7 @@ The below format must be followed for the successful running of the script:
 4. **Output String ::**
 	  - it is passed as a JSON String.  
 	  - all the Chiller & each of its insights are passed in the Output.  
-	  - **Folowing Insights are given :**
+	  - **Folowing Insights are given :**  
 		- Lead Status  
 		- Total No of Cycles  
 		- Total Duration of Cycle  
